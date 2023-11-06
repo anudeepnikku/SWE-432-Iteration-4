@@ -24,6 +24,7 @@
       <h2>Choose a time slot</h2>
       
 	<script>
+		
 		function checkDate()
 		{
 			var date=console.log(jsdate.value);
@@ -107,6 +108,11 @@
 		</form>
 
 	</div>
+	<%if(message)
+	  {%>
+	  <h4> Hello from server</h4>
+	  <%}
+	%>
 </main>
 
 <footer>
